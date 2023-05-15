@@ -3,7 +3,6 @@ local hsluv = lush.hsluv
 local generator = require "zenbones.specs"
 local bg = vim.o.background
 local p = require("neobones.palette")[bg]
-local theme = require "neobones"
 
 local specs = generator.generate(p, bg, generator.get_global_config("neobones", bg))
 
@@ -33,7 +32,7 @@ else
 			IndentBlanklineContextChar { fg = p.bg.lighten(25) },
 
 			LeapLabelPrimary { fg = p.bg, bg = p.blossom },
-			LeapBackdrop { fg = theme.Comment.fg },
+			LeapBackdrop { fg = hsluv "#546976" },
 
 			LualineEmpty { fg = p.bg, bg = p.bg },
 		}
