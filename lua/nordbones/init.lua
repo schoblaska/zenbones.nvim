@@ -36,6 +36,8 @@ return lush.extends({ specs }).with(function()
 		LualineEmpty { fg = p.dark.bg, bg = p.dark.bg },
 
 		TreesitterContext { specs.Normal },
+
+		CmpItemKindCopilot { specs.CmpItemKind },
 	}
 	-- selene: deny(undefined_variable)
 	---@diagnostic enable: undefined-global
