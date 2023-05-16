@@ -4,6 +4,8 @@ local generator = require "zenbones.specs"
 local bg = vim.o.background
 local p = require("neobones.palette")[bg]
 
+vim.g.neobones_lighten_comments = 42
+
 local specs = generator.generate(p, bg, generator.get_global_config("neobones", bg))
 
 if bg == "light" then
