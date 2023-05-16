@@ -24,8 +24,8 @@ local base = {
 }
 
 M.dark = util.palette_extend({
-	bg = base.nord0,
-	fg = base.nord6,
+	bg = base.nord0.darken(10),
+	fg = base.nord6.lighten(10),
 	rose = base.nord11,
 	leaf = base.nord14,
 	wood = base.nord12,
