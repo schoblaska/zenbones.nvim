@@ -37,6 +37,8 @@ else
 			LeapBackdrop { fg = hsluv "#546976" },
 
 			LualineEmpty { fg = p.bg, bg = p.bg },
+
+			TreesitterContext { specs.Normal },
 		}
 		-- selene: deny(undefined_variable)
 		---@diagnostic enable: undefined-global
