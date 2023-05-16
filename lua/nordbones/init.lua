@@ -34,6 +34,8 @@ return lush.extends({ specs }).with(function()
 		DiffViewNormal { specs.NvimTreeNormal },
 
 		LualineEmpty { fg = p.dark.bg, bg = p.dark.bg },
+
+		TreesitterContext { specs.Normal },
 	}
 	-- selene: deny(undefined_variable)
 	---@diagnostic enable: undefined-global
