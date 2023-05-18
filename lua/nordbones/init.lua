@@ -14,13 +14,13 @@ return lush.extends({ specs }).with(function()
 		Identifer { fg = p.dark.fg },
 		Function { fg = p.base.nord8 },
 		Statement { fg = p.base.nord9 },
-		Type { fg = p.dark.blossom },
-		Special { fg = p.dark.leaf },
+		Type { fg = p.dark.leaf },
+		Special { fg = p.dark.blossom },
 
 		IndentBlanklineIndent1 { fg = p.dark.bg.lighten(10) },
 		IndentBlanklineContextChar { fg = p.dark.bg.lighten(25) },
 
-		LeapLabelPrimary { fg = p.dark.bg, bg = p.dark.blossom },
+		LeapLabelPrimary { fg = p.dark.bg, bg = p.dark.leaf },
 		LeapBackdrop { fg = specs.Comment.fg },
 
 		TabLine { fg = specs.Comment.fg },
