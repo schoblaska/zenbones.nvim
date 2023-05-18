@@ -39,6 +39,8 @@ else
 			LualineEmpty { fg = p.bg, bg = p.bg },
 
 			TreesitterContext { specs.Normal },
+
+			CmpItemKindCopilot { specs.CmpItemKind },
 		}
 		-- selene: deny(undefined_variable)
 		---@diagnostic enable: undefined-global
