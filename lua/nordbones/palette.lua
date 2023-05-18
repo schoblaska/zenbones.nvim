@@ -30,7 +30,7 @@ M.dark = util.palette_extend({
 	leaf = base.nord14,
 	wood = base.nord12,
 	water = base.nord7,
-	blossom = base.nord15,
+	blossom = base.nord15.lighten(10),
 	sky = base.nord8,
 }, "dark")
 
