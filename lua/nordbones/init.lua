@@ -15,7 +15,7 @@ return lush.extends({ specs }).with(function()
 		Identifer { fg = p.dark.fg },
 		Function { fg = p.base.nord8 },
 		Statement { fg = p.base.nord9 },
-		Type { fg = p.dark.leaf.mix(p.base.nord7, 33) },
+		Type { fg = p.dark.leaf.mix(p.base.nord8, 50) },
 		Special { fg = p.dark.blossom },
 
 		IndentBlanklineIndent1 { fg = p.dark.bg.lighten(10) },
