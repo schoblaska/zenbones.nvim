@@ -10,7 +10,7 @@ return lush.extends({ specs }).with(function()
 	---@diagnostic disable: undefined-global
 	-- selene: allow(undefined_variable)
 	return {
-		Constant { gui = "" },
+		Constant { fg = specs.Constant.fg, gui = "" },
 		Number { fg = p.base.nord7, gui = "" },
 		Identifer { fg = p.dark.fg },
 		Function { fg = p.base.nord8 },
