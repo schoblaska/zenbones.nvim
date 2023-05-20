@@ -39,6 +39,22 @@ return lush.extends({ specs }).with(function()
 		TreesitterContext { specs.Normal },
 
 		CmpItemKindCopilot { specs.CmpItemKind },
+
+		NotifyERRORBorder { fg = p.rose.darken(10) },
+		NotifyWARNBorder { fg = p.wood.darken(10) },
+		NotifyINFOBorder { fg = p.leaf.darken(10) },
+		NotifyDEBUGBorder { fg = p.fg.darken(40) },
+		NotifyTRACEBorder { fg = p.blossom.darken(10) },
+		NotifyERRORIcon { fg = p.rose },
+		NotifyWARNIcon { fg = p.wood },
+		NotifyINFOIcon { fg = p.leaf },
+		NotifyDEBUGIcon { fg = p.fg.darken(40) },
+		NotifyTRACEIcon { fg = p.blossom },
+		NotifyERRORTitle { fg = p.rose },
+		NotifyWARNTitle { fg = p.wood },
+		NotifyINFOTitle { fg = p.leaf },
+		NotifyDEBUGTitle { fg = p.fg.darken(40) },
+		NotifyTRACETitle { fg = p.blossom },
 	}
 	-- selene: deny(undefined_variable)
 	---@diagnostic enable: undefined-global
