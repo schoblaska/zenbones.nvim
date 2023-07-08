@@ -55,6 +55,8 @@ return lush.extends({ specs }).with(function()
 		NotifyINFOTitle { fg = p.dark.leaf },
 		NotifyDEBUGTitle { fg = p.dark.fg.darken(40) },
 		NotifyTRACETitle { fg = p.dark.blossom },
+
+		DiagnosticUnnecessary { specs.Comment },
 	}
 	-- selene: deny(undefined_variable)
 	---@diagnostic enable: undefined-global
