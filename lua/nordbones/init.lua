@@ -57,6 +57,8 @@ return lush.extends({ specs }).with(function()
 		NotifyTRACETitle { fg = p.dark.blossom },
 
 		DiagnosticUnnecessary { specs.Comment },
+
+		VertSplit { fg = p.dark.bg.darken(25) },
 	}
 	-- selene: deny(undefined_variable)
 	---@diagnostic enable: undefined-global
