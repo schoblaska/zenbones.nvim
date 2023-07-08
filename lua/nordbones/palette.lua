@@ -24,13 +24,13 @@ local base = {
 }
 
 M.dark = util.palette_extend({
-	bg = base.nord0.darken(25),
-	fg = base.nord5,
+	bg = base.nord0,
+	fg = base.nord6,
 	rose = base.nord11,
-	leaf = base.nord14.darken(10),
+	leaf = base.nord14,
 	wood = base.nord13,
 	water = base.nord7,
-	blossom = base.nord15.lighten(15),
+	blossom = base.nord15,
 	sky = base.nord8,
 }, "dark")
 
